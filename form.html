@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+      <title>Html Practice Form</title>
+      <style>
+        body{
+            text-align: center;
+            
+        }
+        .stdFrom{
+            text-align: justify;
+            padding: 15px;
+            margin: 200px 100px;
+            font-size: medium;
+        }
+      </style>
+    </head>
+    <body>
+      <h2>This is HTML Form Practice Tutorial</h2>
+      <div class="stdFrom">
+        <form>
+          <label for="stdName"> Student Name : </label>
+          <input type="text" name="name" id="stdName">
+        </br></br>
+          <label for="stdID"> Student ID : </label>
+          <input type="number" name="ID" id="stdID">
+    </br></br>
+          <label for="stdEmail"> E-mail : </label>
+          <input type="email" name="email" id="stdEmail">
+    </br></br>
+          <label for="regDate"> Registration Date : </label>
+          <input type="date" name="stdRegDate" id="regDate">
+    </br></br>
+          <label for="stdEligibility"> Is student eligible for registration ?</label>
+          <input type="checkbox" name="eligiblility" id="stdEligibility">
+    </br></br>
+           <label for="stdGender"> Gender : </label>
+          Female<input type="radio" name="gender" id="stdGender">
+          Male<input type="radio" name="gender" id="stdGender">
+          Other<input type="radio" name="gender" >
+    </br></br>
+         <label for="stdRemark"> Remark : </label>
+          <textarea cols="20" rows="1" id="stdRemark"></textarea>
+    </br></br>
+          <input type="button" value="Submit Form">
+          <button>Reset Form</button>
+          
+        </form>
+      </div>
+    </body>
+  </html>
